@@ -24,7 +24,7 @@ public class Employee {
     public int getSalary() {
         return salary;
     }
-
+    
     public void setSalary(int salary) {
         this.salary = salary;
     }
@@ -32,7 +32,7 @@ public class Employee {
     public void showInformation() {
         System.out.println("이름:" + name + "연봉:" + salary);
     }
-
+    
 }
 
 

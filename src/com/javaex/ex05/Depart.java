@@ -27,7 +27,7 @@ public class Depart extends Employee{
 	}
 	
 	public void showInformation() {
-		
+		System.out.println("이름:" + super.getName() + " 연봉:" + super.getSalary() + " 부서:" + department);
 	}
 	 
 	 
